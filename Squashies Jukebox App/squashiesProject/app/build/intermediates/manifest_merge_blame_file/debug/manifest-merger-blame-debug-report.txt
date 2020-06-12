@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.squashiesapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml
+10    <!-- Permission request to allow Internet connectivity -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:6:22-77
+13
+14    <application
+14-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:8:5-64:19
+15        android:allowBackup="true"
+15-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:15:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.2.0] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\0b96859a3cdf2530aa3d77dcfaeaf2fb\core-1.2.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:11:9-41
+21        android:networkSecurityConfig="@xml/network_security_config"
+21-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:9:9-69
+22        android:roundIcon="@drawable/squashies_blue_logo"
+22-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:12:9-58
+23        android:supportsRtl="true"
+23-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:14:9-40
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:16:9-44
+27
+28        <!-- android:windowSoftInputMode="stateVisible|adjustResize" - places editText boxes above keyboard -->
+29        <!-- android:usesCleartextTraffic="true" - allows all connections -->
+30        <activity
+30-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:21:9-23:20
+31            android:name="com.example.squashiesapp.RequestFirstIP"
+31-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:21:19-49
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:22:13-55
+33        </activity>
+34        <activity
+34-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:25:9-29:20
+35            android:name="com.example.squashiesapp.MainActivity"
+35-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:27:13-41
+36            android:windowSoftInputMode="adjustPan" >
+36-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:26:13-52
+37        </activity>
+38        <activity
+38-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:31:9-33:15
+39            android:name="com.example.squashiesapp.AdminPanelLogin"
+39-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:31:19-50
+40            android:windowSoftInputMode="adjustPan" />
+40-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:32:13-52
+41        <activity android:name="com.example.squashiesapp.AdminPanelColourPicker" />
+41-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:35:9-36:13
+41-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:35:19-57
+42        <activity
+42-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:37:9-40:15
+43            android:name="com.example.squashiesapp.AdminPanel"
+43-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:37:19-45
+44            android:alwaysRetainTaskState="true"
+44-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:38:13-49
+45            android:launchMode="singleInstance" />
+45-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:39:13-48
+46        <activity android:name="com.example.squashiesapp.AdminPanelAnnouncements" />
+46-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:41:9-42:14
+46-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:41:19-58
+47        <activity
+47-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:43:9-45:14
+48            android:name="com.example.squashiesapp.RequestSong"
+48-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:43:19-46
+49            android:windowSoftInputMode="adjustPan" />
+49-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:44:13-52
+50        <activity android:name="com.example.squashiesapp.AdminPanelMusicPlayer" />
+50-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:46:9-47:14
+50-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:46:19-56
+51        <activity
+51-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:48:9-50:14
+52            android:name="com.example.squashiesapp.AdminPanelMessageScroller"
+52-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:48:19-60
+53            android:windowSoftInputMode="adjustPan" />
+53-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:49:13-52
+54        <activity android:name="com.example.squashiesapp.AdminPanelScreenSaver" />
+54-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:51:9-59
+54-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:51:19-56
+55        <activity android:name="com.example.squashiesapp.AdminPanelSettings" />
+55-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:52:9-56
+55-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:52:19-53
+56        <activity android:name="com.example.squashiesapp.AdminPanelStatistics" />
+56-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:53:9-58
+56-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:53:19-55
+57        <activity android:name="com.example.squashiesapp.ScreenSaverTimeout" />
+57-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:54:9-56
+57-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:54:19-53
+58
+59        <!-- Start on Splashscreen -->
+60        <activity android:name="com.example.squashiesapp.SplashScreen" >
+60-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:57:9-62:20
+60-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:57:19-47
+61            <intent-filter>
+61-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:58:9-61:25
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:59:13-65
+62-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:59:21-62
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:60:13-73
+64-->C:\Users\Christian\floobits\share\sampxgroup2\squashiesProject\app\src\main\AndroidManifest.xml:60:23-70
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:12:9-20:20
+69            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+69-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:13:13-68
+70            android:authorities="com.example.squashiesapp.fishbunfileprovider"
+70-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:14:13-71
+71            android:exported="false"
+71-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:15:13-37
+72            android:grantUriPermissions="true" >
+72-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:16:13-47
+73            <meta-data
+73-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:17:13-19:58
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:18:17-67
+75                android:resource="@xml/provider_paths" />
+75-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:19:17-55
+76        </provider>
+77
+78        <activity
+78-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:22:9-25:51
+79            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+79-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:23:13-71
+80            android:label="@string/album"
+80-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:24:13-42
+81            android:theme="@style/FishBunTheme" />
+81-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:25:13-48
+82        <activity
+82-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:26:9-28:51
+83            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+83-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:27:13-73
+84            android:theme="@style/FishBunTheme" />
+84-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:28:13-48
+85        <activity
+85-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:29:9-31:54
+86            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+86-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:30:13-73
+87            android:theme="@style/DetailViewTheme" />
+87-->[com.sangcomz:FishBun:0.11.4] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\910262f2344e9f78d5e051e4a4a8e94c\jetified-FishBun-0.11.4\AndroidManifest.xml:31:13-51
+88
+89        <provider
+89-->[com.squareup.picasso:picasso:2.71828] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\d58366ff99a3737e94aa5fef010c27db\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+90            android:name="com.squareup.picasso.PicassoProvider"
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\d58366ff99a3737e94aa5fef010c27db\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+91            android:authorities="com.example.squashiesapp.com.squareup.picasso"
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\d58366ff99a3737e94aa5fef010c27db\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+92            android:exported="false" />
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\Christian\.gradle\caches\transforms-2\files-2.1\d58366ff99a3737e94aa5fef010c27db\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+93    </application>
+94
+95</manifest>
